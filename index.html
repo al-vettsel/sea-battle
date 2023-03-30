@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>Sea Battle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="bot-field" style="display: none;">
+        <table id="bot-battle-field">
+            <tr>
+                <td class="info-cell"></td>
+                <td class="info-cell">A</td>
+                <td class="info-cell">B</td>
+                <td class="info-cell">C</td>
+                <td class="info-cell">D</td>
+                <td class="info-cell">E</td>
+                <td class="info-cell">F</td>
+                <td class="info-cell">G</td>
+                <td class="info-cell">H</td>
+                <td class="info-cell">I</td>
+                <td class="info-cell minus-right-border">J</td>
+            </tr>
+            <tr>
+                <td class="info-cell">1</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">2</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">3</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">4</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">5</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">6</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">7</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">8</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">9</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell minus-bottom-border">10</td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+                <td class="bot-battle-cell"></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <div class="player-field">
+        <table>
+            <tr>
+                <td class="info-cell"></td>
+                <td class="info-cell">A</td>
+                <td class="info-cell">B</td>
+                <td class="info-cell">C</td>
+                <td class="info-cell">D</td>
+                <td class="info-cell">E</td>
+                <td class="info-cell">F</td>
+                <td class="info-cell">G</td>
+                <td class="info-cell">H</td>
+                <td class="info-cell">I</td>
+                <td class="info-cell minus-right-border">J</td>
+            </tr>
+            <tr>
+                <td class="info-cell">1</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">2</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">3</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">4</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">5</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">6</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">7</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">8</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell">9</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+            <tr>
+                <td class="info-cell minus-bottom-border">10</td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+                <td class="battle-cell"></td>
+            </tr>
+        </table>
+
+        <div id="control-button">
+
+            <button onclick="start()" id="bot-start" disabled>Start</button>
+
+            <button onclick="randomButton()" id="random-button">Random</button>  
+            
+            
+        </div>
+
+    </div>
+
+</div>
+
+    
+
+    
+
+
+
+    
+
+    
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
